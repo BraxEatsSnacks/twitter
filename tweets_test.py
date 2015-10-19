@@ -20,14 +20,14 @@ word_inputs = input("For which word(s) would you like to filter the tweets? ")
 # strip whitespace
 args = tuple(word.strip() for word in word_inputs.split(","))
 
-print(args)
+# print(args)
 
 # main function
 def main():
     """Tests tweet sentiment compiler code in tweets.py"""
     print("\nParsing file and creating tweet dictionaries...")
-    # inFile = all_tweets
-    tweets = t.make_tweet(all_tweets)
+    # inFile = some_tweets
+    tweets = t.make_tweet(some_tweets)
 
     # list of tweet dictionaries that include avg sentiment
     # DOES NOT CREATE NEW LIST OF TWEET DICTIONARIES
