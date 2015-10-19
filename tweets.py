@@ -1,7 +1,6 @@
 # ****************************
 # Braxton Gunter
 # Twitter Sentiments Backbone
-# 27 April 2015
 # ****************************
 
 # -*- coding: utf8 -*- #
