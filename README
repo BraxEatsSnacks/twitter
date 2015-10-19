@@ -1,0 +1,43 @@
+Additional Modules Needed: prettyprint
+
+Tweets Functions (tweets.py)
+
+-	parse_text (component of make_tweets)
+-	parse_time (component of make_tweets)
+-	parse_latitude (component of make_tweets)
+-	parse_longitude (component of make_tweets)
+-	make_tweets 
+
+-	sentiment_dictionary
+-	add_sentiment
+-	pass_tweets (file creation in the like of "all_tweets.txt")
+
+-	rebuilt_parse_text (component of rebuilt_tweets)
+-	rebuilt_parse_time (component of rebuilt_tweets)
+-	rebuilt_parse_latitude (component of rebuilt_tweets)
+-	rebuilt_parse_longitude (component of rebuilt_tweets)
+-	rebuilt_tweets
+
+-	avg_sentiment
+-	tweet_filter
+
+	*more explaination in code comment*
+
+# *************************************************************************** #
+
+Tweets Testing (tweets_test.py)
+
+-	main
+	FULLY FUNCTIONAL
+	allows the user to input what words to filter for in the tweets entered as
+	words separated by commas (i.e. "little, i,...") which are stored as tuple
+	"args". This is unpackaged in the call of function tweet_filter with the
+	arguments of (tweets, *args).
+
+	uncomment line 50-51 to see list of filtered tweets
+
+	*more explaination in code comments*
+
+	one short-coming of the code is that it doesn't account for words next to 
+	punctuation (i.e. "yummy != yummy.") simply for the sake of rebuilding the 
+	tweets with their punctuation present.
