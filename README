@@ -1,3 +1,8 @@
+Allows for a user to search tweet database for word(s) and return the average
+sentiment of all tweets that contain said word(s)
+
+# *************************************************************************** #
+
 Additional Modules Needed: prettyprint
 
 Tweets Functions (tweets.py)
