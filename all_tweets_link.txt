@@ -1,4 +1,4 @@
-link to full size file: "all_tweets.txt"
+link to full size file version of "some_tweets.txt" -- "all_tweets.txt"
 
 234 MB exceeds GitHub 100 MB file limit
 
