@@ -5,6 +5,25 @@ sentiment of all tweets that contain said word(s)
 
 Additional Modules Needed: prettyprint
 
+Tweets Testing (tweets_test.py)
+
+-	main
+	FULLY FUNCTIONAL
+	allows the user to input what words to filter for in the tweets entered as
+	words separated by commas (i.e. "little, i,...") which are stored as tuple
+	"args". This is unpackaged in the call of function tweet_filter with the
+	arguments of (tweets, *args).
+
+	uncomment line 50-51 to see list of filtered tweets
+
+	*more explaination in code comments*
+
+	one short-coming of the code is that it doesn't account for words next to 
+	punctuation (i.e. "yummy != yummy.") simply for the sake of rebuilding the 
+	tweets with their punctuation present.
+	
+# *************************************************************************** #
+
 Tweets Functions (tweets.py)
 
 -	parse_text (component of make_tweets)
@@ -29,20 +48,3 @@ Tweets Functions (tweets.py)
 	*more explaination in code comment*
 
 # *************************************************************************** #
-
-Tweets Testing (tweets_test.py)
-
--	main
-	FULLY FUNCTIONAL
-	allows the user to input what words to filter for in the tweets entered as
-	words separated by commas (i.e. "little, i,...") which are stored as tuple
-	"args". This is unpackaged in the call of function tweet_filter with the
-	arguments of (tweets, *args).
-
-	uncomment line 50-51 to see list of filtered tweets
-
-	*more explaination in code comments*
-
-	one short-coming of the code is that it doesn't account for words next to 
-	punctuation (i.e. "yummy != yummy.") simply for the sake of rebuilding the 
-	tweets with their punctuation present.
